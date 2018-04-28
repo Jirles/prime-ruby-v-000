@@ -1,12 +1,12 @@
 # Add  code here!
 def prime?(n)
-  bool_hash = {}
+  primes = []
   if n <= 1 
     prime = false
-  elsif n == 2 
-    prime = true
   else
-    
+    (2..n).each do |number|
+      if number %
+    end
     
   end
   prime 
