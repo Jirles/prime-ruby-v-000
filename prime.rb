@@ -5,7 +5,7 @@ def prime?(n)
   if n <= 1 
     prime = false
   elsif n == 2 
-    prime = true
+    prime = true 
   else
     (2..n).each{|number| bool_hash[number] = true}
     bool_hash.each do |key, value|
