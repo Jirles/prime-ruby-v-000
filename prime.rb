@@ -5,7 +5,6 @@ def prime?(num)
   if num == 1 || num in primes
     prime = true 
   else
-    primes.each do |prime|
-      num % prime == 0
+    primes.collect{|prime| num % prime == 0}
     
 end
