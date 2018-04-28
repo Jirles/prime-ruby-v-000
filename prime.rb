@@ -2,7 +2,7 @@
 def prime?(num)
   prime = false
   if num <= 1 
-    prime = false
+    
   elsif || PRIMES.include?(num)
     prime = true 
   else
