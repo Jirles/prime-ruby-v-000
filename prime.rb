@@ -11,9 +11,9 @@ def prime?(n)
     bool_hash.each do |key, value|
       if value
         p_value = key
-        bool_hash.each do |key, value|
-          if key % p_value == 0 
-            bool_hash[key] = !value
+        (p_value+1..n).each do |number|
+          if number % p_value == 0 
+            bool_hash[number] = false
           end
         end
       end
