@@ -6,5 +6,5 @@ def prime?(num)
     prime = true 
   else
     primes.collect{|prime| num % prime == 0}
-    
+  end
 end
