@@ -4,7 +4,7 @@ def prime?(num)
   prime = false
   if num < 1 
     prime = false
-  elsif num == 1 || num in PRIMES
+  elsif num == 1 || PRIMES.include?(num)
     prime = true 
   else
     num_bool = PRIMES.collect{|prime| num % prime == 0}
