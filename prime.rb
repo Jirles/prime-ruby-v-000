@@ -1,4 +1,5 @@
 # Add  code here!
+#using sieve of 
 def prime?(n)
   primes = []
   if n <= 1 
