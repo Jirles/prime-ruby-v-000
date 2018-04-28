@@ -2,7 +2,7 @@
 primes = [2]
 def prime?(num)
   prime = false
-  if num == 1 || num in primes
+  if num == 1 || primes.include?(num)
     prime = true 
   else
     primes.collect{|prime| num % prime == 0}
