@@ -6,7 +6,9 @@ def prime?(n)
     prime = false
   else
     (2..n).each{|number| bool_hash[number] = true}
-    if number % 
+    bool_hash.each do |key, value|
+      if value
+        
     end
     
   end
