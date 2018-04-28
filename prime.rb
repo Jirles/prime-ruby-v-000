@@ -1,5 +1,4 @@
 # Add  code here!
-PRIMES = [2]
 def prime?(num)
   prime = false
   if num <= 1 
