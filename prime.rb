@@ -1,12 +1,12 @@
 # Add  code here!
-#using sieve of 
+#using sieve of Erathenoes  
 def prime?(n)
-  primes = []
+  bool_hash = {}
   if n <= 1 
     prime = false
   else
-    (2..n).each do |number|
-      if number % 
+    (2..n).each{|number| bool_hash[number] = true}
+    if number % 
     end
     
   end
