@@ -12,7 +12,7 @@ def prime?(n)
       if value
         p_value = key
         bool_hash.each do |key|
-          if key % p_value == 0 
+          if key%p_value == 0 
             bool_hash[key] = false
           end
         end
